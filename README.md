@@ -17,9 +17,9 @@ AI体彩预测：大乐透、排列3、排列5、七星彩。
 
 ## Directory
 
-./data, lottery.txt rank3.txt rank5.txt starcolor.txt 体彩历届开奖数据，从体彩有记录开始截止到2020年7月
+./data/lottery.txt rank3.txt rank5.txt starcolor.txt, 体彩历届开奖数据，从体彩有记录开始截止到2020年7月
 
-./data, input.txt 训练时默认数据源
+./data/input.txt, 训练时默认数据源
 
 ./save, 训练完成之后保存的AI模型，输出预测数据时调用。该目录有已经成功训练好的体彩AI模型，可直接预测使用。
 
