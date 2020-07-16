@@ -5,15 +5,14 @@ AI体彩预测：大乐透、排列3、排列5、七星彩。
 ## Prerequisites
 
 - Python 3.3+
-- TF1.X: tensorflow==1.15.3或者tensorflow-gpu==1.15.3
-- Tornado 6.0.4
 - Websocket
+- TF1.X: tensorflow==1.15.3或者tensorflow-gpu==1.15.3
+- [Tornado 6.0.4](https://github.com/tornadoweb/tornado)
 - [Tensorflow 1.15.3](https://github.com/tensorflow/tensorflow/releases/tag/v1.15.3)
-- [SciPy](http://www.scipy.org/install.html)
-- [pillow](https://github.com/python-pillow/Pillow)
-- (Optional) [moviepy](https://github.com/Zulko/moviepy) (for visualization)
-- (Optional) [Align&Cropped Images.zip](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) : Large-scale CelebFaces Dataset
 
+- [LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- (RNN and LSTM) [Aditi Mittal](https://towardsdatascience.com/understanding-rnn-and-lstm-f7cdf6dfc14e) (for visualization)
+- (Technical Indicators and GRU/LSTM to Predict Stock price) [Technical Indicators and GRU/LSTM to Predict Stock price](https://towardsdatascience.com/forecasting-with-technical-indicators-and-gru-lstm-rnn-multivariate-time-series-a3244dcbc38b)
 ## Directory
 
 ./data lottery.txt rank3.txt rank5.txt starcolor.txt 体彩历届开奖数据，从体彩有记录开始截止到2020年7月
