@@ -10,7 +10,7 @@ import sample
 import json
 from tornado.options import define, options
 
-define('port', default=2886, help="The tornado server port", type=int)
+define('port', default=2986, help="The tornado server port", type=int)
 
 class WebSocketSever(tornado.websocket.WebSocketHandler):
     bao_cons = set()
