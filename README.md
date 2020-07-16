@@ -1,5 +1,20 @@
-# tf-lottery
+## Tf-lottery
+
 AI体彩预测：大乐透、排列3、排列5、七星彩。
+
+## Prerequisites
+
+- Python 3.3+
+- TF1.X: tensorflow==1.15.3或者tensorflow-gpu==1.15.3
+- Tornado 6.0.4
+- Websocket
+- [Tensorflow 1.15.3](https://github.com/tensorflow/tensorflow/releases/tag/v1.15.3)
+- [SciPy](http://www.scipy.org/install.html)
+- [pillow](https://github.com/python-pillow/Pillow)
+- (Optional) [moviepy](https://github.com/Zulko/moviepy) (for visualization)
+- (Optional) [Align&Cropped Images.zip](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) : Large-scale CelebFaces Dataset
+
+## Directory
 
 ./data lottery.txt rank3.txt rank5.txt starcolor.txt 体彩历届开奖数据，从体彩有记录开始截止到2020年7月
 
@@ -9,6 +24,7 @@ AI体彩预测：大乐透、排列3、排列5、七星彩。
 
 ./tool crash.py 清除所有训练记录和日志方便重新开始训练 capability.py 用于查看此计算机是否可以GPU运算以及算力大小
 
+## Usage
 
 train.py 用于Tensorflow深度训练学习体彩数据
 
@@ -46,3 +62,8 @@ sample.py 训练结束后用于输出体彩预测数据
 
 example:
 python sample.py --save_dir save/rank3 -n 200 --prime 06 --sample 1
+
+## Online Demo
+
+[link](http://ai.workfreer.com)
+
