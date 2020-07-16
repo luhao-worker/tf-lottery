@@ -11,8 +11,8 @@ AI体彩预测：大乐透、排列3、排列5、七星彩。
 - [Tensorflow 1.15.3](https://github.com/tensorflow/tensorflow/releases/tag/v1.15.3)
 
 - [LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-- (RNN and LSTM) [Aditi Mittal](https://towardsdatascience.com/understanding-rnn-and-lstm-f7cdf6dfc14e) (for visualization)
-- (Technical Indicators and GRU/LSTM to Predict Stock price) [Technical Indicators and GRU/LSTM to Predict Stock price](https://towardsdatascience.com/forecasting-with-technical-indicators-and-gru-lstm-rnn-multivariate-time-series-a3244dcbc38b)
+- [Aditi Mittal RNN and LSTM](https://towardsdatascience.com/understanding-rnn-and-lstm-f7cdf6dfc14e) (for visualization)
+- [Technical Indicators and GRU/LSTM to Predict Stock price](https://towardsdatascience.com/forecasting-with-technical-indicators-and-gru-lstm-rnn-multivariate-time-series-a3244dcbc38b)
 ## Directory
 
 ./data lottery.txt rank3.txt rank5.txt starcolor.txt 体彩历届开奖数据，从体彩有记录开始截止到2020年7月
