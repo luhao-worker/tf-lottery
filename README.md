@@ -13,6 +13,8 @@ AI体彩预测：大乐透、排列3、排列5、七星彩。
 - [LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Aditi Mittal RNN and LSTM](https://towardsdatascience.com/understanding-rnn-and-lstm-f7cdf6dfc14e) 
 - [Technical Indicators and GRU/LSTM to Predict Stock price](https://towardsdatascience.com/forecasting-with-technical-indicators-and-gru-lstm-rnn-multivariate-time-series-a3244dcbc38b)
+
+
 ## Directory
 
 ./data lottery.txt rank3.txt rank5.txt starcolor.txt 体彩历届开奖数据，从体彩有记录开始截止到2020年7月
@@ -45,8 +47,7 @@ train.py 用于Tensorflow深度训练学习体彩数据
 
 --decay_rate decay rate for rmsprop
 
-example:
-python train.py --save_dir save/rank3 --model lstm --batch_size 20 --save_every 500 --decay_rate 0.89
+$ python train.py --save_dir save/rank3 --model lstm --batch_size 20 --save_every 500 --decay_rate 0.89 #example
 
 
 sample.py 训练结束后用于输出体彩预测数据
@@ -59,10 +60,11 @@ sample.py 训练结束后用于输出体彩预测数据
 
 --sample     0 to use max at each timestep, 1 to sample at each timestep, 2 to sample on spaces
 
-example:
-python sample.py --save_dir save/rank3 -n 200 --prime 06 --sample 1
+$ python sample.py --save_dir save/rank3 -n 200 --prime 06 --sample 1 #example
+
+ws_server.py 启动 tornado websocket 服务端和Tensorflow训练好的模型交互
+
 
 ## Online Demo
 
 [link](http://ai.workfreer.com)
-
