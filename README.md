@@ -17,13 +17,13 @@ AI体彩预测：大乐透、排列3、排列5、七星彩。
 
 ## Directory
 
-./data lottery.txt rank3.txt rank5.txt starcolor.txt 体彩历届开奖数据，从体彩有记录开始截止到2020年7月
+./data, lottery.txt rank3.txt rank5.txt starcolor.txt 体彩历届开奖数据，从体彩有记录开始截止到2020年7月
 
-./data input.txt Tensorflow训练时默认数据源
+./data, input.txt Tensorflow训练时默认数据源
 
-./save Tensorflow训练完成之后保存的人工智能学习模型，输出预测数据时调用。该目录有已经成功训练好的体彩数据模型，可以用sample.py直接预测使用。
+./save, Tensorflow训练完成之后保存的人工智能学习模型，输出预测数据时调用。该目录有已经成功训练好的体彩数据模型，可以用sample.py直接预测使用。
 
-./tool crash.py 清除所有训练记录和日志方便重新开始训练 capability.py 用于查看此计算机是否可以GPU运算以及算力大小
+./tool/crash.py, 清除所有训练记录和日志方便重新开始训练 ./tool/capability.py 用于查看此计算机是否可以GPU运算以及算力大小
 
 ## Usage
 
