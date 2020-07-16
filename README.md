@@ -21,13 +21,13 @@ AI体彩预测：大乐透、排列3、排列5、七星彩。
 
 ./data, input.txt Tensorflow训练时默认数据源
 
-./save, Tensorflow训练完成之后保存的人工智能学习模型，输出预测数据时调用。该目录有已经成功训练好的体彩数据模型，可以用sample.py直接预测使用。
+./save, Tensorflow训练完成之后保存的AI模型，输出预测数据时调用。该目录有已经成功训练好的体彩AI模型，可直接预测使用。
 
 ./tool/crash.py, 清除所有训练记录和日志方便重新开始训练 ./tool/capability.py 用于查看此计算机是否可以GPU运算以及算力大小
 
 ## Usage
 
-train.py 用于Tensorflow深度训练学习体彩数据
+train.py 用于Tensorflow训练学习体彩数据
 
 --data_dir   data directory containing input.txt
 
